@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        GIT_REPOSITORY_URL = 'https://github.com/samcdac2025-coder/jenkins_docker_push.git'
-        DOCKER_IMAGE_NAME = 'samcdac/pythonapp_flask'
+        GIT_REPOSITORY_URL = 'https://github.com/actscdac2-prog/jenkin.git'
+        DOCKER_IMAGE_NAME = 'kedardoc/pythonapp_flask'
         IMAGE_TAG = '1.0'
     }
 
